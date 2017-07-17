@@ -8,4 +8,3 @@ export WORDCHARS='*?_-.[]~&;!#$%^(){}<>'
 
 export EDITOR="vim"
 export VISUAL="vim"
-export GREP_OPTIONS='--color=auto'
