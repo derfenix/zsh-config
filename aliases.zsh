@@ -55,4 +55,8 @@ alias df='df -h'
 alias du='du -h'
 alias less='less -M'
 alias wget='wget -c'
+
+
+alias dco='docker-compose'
+
 # vim: ft=sh: 

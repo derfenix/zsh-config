@@ -12,7 +12,7 @@ export PROMPT='${cyan}[${magenta}%n${cyan}] ${red}→${reset} '
 export PROMPT2='${red}%i>${reset} '
 
 git_prompt() {
-  temp=`git symbolic-ref HEAD 2>/dev/null | cut -d / -f 3`
+  temp=`git symbolic-ref HEAD 2>/dev/null | cut -d / -f 3,4`
   if [ "$temp" != "" ]; then echo "$temp:"; fi
 }
 setopt prompt_subst
