@@ -59,4 +59,6 @@ alias wget='wget -c'
 
 alias dco='docker-compose'
 
+alias my="sudo chown $(id -u)"
+
 # vim: ft=sh: 
