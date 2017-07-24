@@ -8,3 +8,5 @@ export WORDCHARS='*?_-.[]~&;!#$%^(){}<>'
 
 export EDITOR="vim"
 export VISUAL="vim"
+
+export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
