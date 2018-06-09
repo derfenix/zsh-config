@@ -8,7 +8,7 @@ done
 reset="%{$reset_color%}"
 
 
-export PROMPT='${cyan}[${magenta}%n${cyan}] ${red}→${reset} '
+export PROMPT='${cyan}[${magenta}%n@%m${cyan}] ${red}→${reset} '
 export PROMPT2='${red}%i>${reset} '
 
 git_prompt() {
