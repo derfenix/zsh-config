@@ -1,3 +1,3 @@
 typeset -U path
-path=(~/bin  $path[@])
+path=(~/bin ~/dev/go/bin $path[@])
 

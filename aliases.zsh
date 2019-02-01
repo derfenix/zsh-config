@@ -1,4 +1,4 @@
-if which yaourt > /dev/null
+if which yaourt > /dev/null 2>&1
 then 
 	alias y=yaourt
 	alias upg="yaourt -Syu"
@@ -11,7 +11,7 @@ then
 	}
 fi
 
-if which zypper > /dev/null
+if which zypper > /dev/null 2>&1
 then
 	alias inst="sudo zypper in"
 	alias search="zypper se -d"

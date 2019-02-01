@@ -13,7 +13,7 @@ zstyle ':completion:*' max-errors 2
 zstyle ':completion:*' menu select
 zstyle ':completion:*' preserve-prefix '//[^/]##/'
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
-zstyle ':completion:*' squeeze-slashes true
+#zstyle ':completion:*' squeeze-slashes true
 zstyle ':completion:*' use-compctl true
 zstyle ':completion:*' verbose true
 
