@@ -28,10 +28,12 @@ alias -g T='|tail'
 alias -g L='|less'
 alias -g N='2>/dev/null'
 
+alias g='git'
 alias svim='sudo vim'
 alias root='sudo su -'
 alias sc='sudo systemctl'
 alias scu='systemctl --user'
+
 
 alias htops='htop -d 10'
 alias crontab='crontab -i'

@@ -26,10 +26,16 @@ zstyle ':completion:*:messages' format '%B%U---- %d%u%b'
 # format in bold red error messages
 zstyle ':completion:*:warnings' format "%B$fg[red]%}---- no match for: $fg[white]%d%b"
 
+autoload compinit
+compinit
 
 for file in ~/.config/zsh/completions/*.zsh; do
 		  source "${file}"
 done
 
-autoload -Uz compinit
-compinit
+
+compdef sc='systemctl'
+compdef scu='systemctl'
+compdef y='yaourt'
+compdef dco='docker-compose'
+compdef g='git'
