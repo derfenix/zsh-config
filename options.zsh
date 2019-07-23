@@ -1,4 +1,4 @@
-cdpath=($HOME/dev/python $HOME/documents $HOME/dev/godev)
+cdpath=($HOME/dev/python $HOME/documents $HOME/dev/godev $HOME)
 
 HISTFILE=~/.histfile
 HISTSIZE=1000
