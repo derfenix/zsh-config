@@ -21,6 +21,15 @@ then
 	alias dup="sudo zypper dup"
 fi
 
+if which yay > /dev/null 2>&1
+then
+	alias inst="yay -S"
+	alias y="yay"
+	alias upg="pacman -Syu"
+	alias rem="pacman -R"
+	alias upga="yay"
+fi
+
 
 alias -g G='|grep'
 alias -g GI='|grep -i'

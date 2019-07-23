@@ -1,4 +1,4 @@
-ZSH_SOURCE='~/.config/zsh/'
+ZSH_SOURCE="$HOME/.config/zsh/"
 
 conf_files='zshrc zprofile zshenv'
 

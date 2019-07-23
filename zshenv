@@ -1,5 +1,5 @@
 export STEAM_FRAME_FORCE_CLOSE=1
-source /usr/bin/virtualenvwrapper.sh
+#source /usr/bin/virtualenvwrapper.sh
 export PROJECT_HOME="$HOME/.virtualenvs"
 export GOPATH="$HOME/dev/go/"
 
