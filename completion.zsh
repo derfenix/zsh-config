@@ -36,6 +36,15 @@ done
 
 compdef sc='systemctl'
 compdef scu='systemctl'
-compdef y='yaourt'
+
+if which yaourt >/dev/null 2>&1
+then
+	compdef y='yaourt'
+fi
+if which yay >/dev/null 2>&1
+then
+	compdef y='yay'
+fi
+
 compdef dco='docker-compose'
 compdef g='git'

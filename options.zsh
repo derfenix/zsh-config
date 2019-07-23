@@ -1,4 +1,4 @@
-cdpath=(/home/fenix/dev/python /home/documents)
+cdpath=($HOME/dev/python $HOME/documents $HOME/dev/godev)
 
 HISTFILE=~/.histfile
 HISTSIZE=1000
