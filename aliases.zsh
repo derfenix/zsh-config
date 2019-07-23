@@ -25,8 +25,8 @@ if which yay > /dev/null 2>&1
 then
 	alias inst="yay -S"
 	alias y="yay"
-	alias upg="pacman -Syu"
-	alias rem="pacman -R"
+	alias upg="sudo pacman -Syu"
+	alias rem="sudo pacman -R"
 	alias upga="yay"
 fi
 
